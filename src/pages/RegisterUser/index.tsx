@@ -2,7 +2,7 @@ import { Button, Checkbox, MenuItem, Select, TextField } from "@mui/material";
 import { useState } from "react";
 import RegistryBackground from '../../assets/images/RegistryBackground.svg'
 
-export function Register() {
+export function RegisterUser() {
   const [name, setName] = useState("");
   const [born, setBorn] = useState("");
   const [genre, setGenre] = useState("");
